@@ -1,0 +1,1 @@
+-e git+https://github.com/ssato/yamllint.git@feature/plugin#egg=yamllint

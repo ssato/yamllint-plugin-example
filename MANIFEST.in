@@ -1,0 +1,9 @@
+include *.txt
+include LICENSE.GPLv3
+include MANIFEST.in
+include README.*
+include setup.*
+include tox.ini
+include tests/res/*
+recursive-include src *.py
+recursive-include tests *.py *.txt
