@@ -8,3 +8,4 @@ yamllint-plugin-example
 This is an example implementation of YAML Lint plugin.
 
 - YAML Lint: https://github.com/adrienverge/yamllint
+- My own branch to enhance YAML Lint to add plugin support: https://github.com/ssato/yamllint/tree/feature/plugin
