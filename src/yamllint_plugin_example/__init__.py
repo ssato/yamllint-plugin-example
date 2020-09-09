@@ -4,11 +4,10 @@
 """YAML Lint plugin entry point
 """
 from __future__ import absolute_import
-from . import flow_sequence, flow_mapping
+from . import override_comments
 
 
 RULES_MAP = {
-    flow_sequence.ID: flow_sequence,
-    flow_mapping.ID: flow_mapping
+    override_comments.ID: override_comments
 }
 OVERRIDE = False
